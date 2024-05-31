@@ -53,12 +53,18 @@ Base de datos y ODM utilizados:
 4. Enviar las peticiones:
 
    - Crear Referencia de Luminaria (POST).
+     ![](./src/images/POST.png)
    - Leer Referencia de Luminaria por la propiedad "id_Ucap" (GET/"id_Ucap").
+     ![](./src/images/getLeer.png)
    - Leer todas las referencias de luminarias (GET).
+     ![](./src/images/leerTodasGet.png)
    - Actualizar propiedad de las referencias de lumianrias. (PUT)
+     ![](./src/images/PUT.png)
    - Eliminar Referencia de luminaria (DELETE)
+     ![](./src/images/eliminarDelete.png)
 
    Nota: Al realizar cada petición, ir validando en la BD la informacion enviada.
+   ![](./src/images/DatosBD.png)
 
 ## Desarrollador
 
