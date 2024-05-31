@@ -45,9 +45,7 @@ const controladorLuminarias = {
     //leer referencia
     leerReferenciaLuminaria: async (solicitud, respuesta) => {
         try {
-            console.log(solicitud.params.id);
             const referenciaEncontrada = await modeloLuminarias.find({ id_Ucap: solicitud.params.id })
-            console.log(referenciaEncontrada);
             if (referenciaEncontrada) {
                 respuesta.json({
                     resultado: "Exitoso",
