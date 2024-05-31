@@ -25,7 +25,7 @@ En este proyecto se este creando referencias de las luminarias de Bogotá y de l
 - comprobar persistencia de datos.
 - Actualizar documentación.
 
-### Instrucciones de uso
+### Tecnologias
 
 Tecnologias usadas en el proyecto:
 
@@ -37,6 +37,8 @@ Base de datos y ODM utilizados:
 
 - MongdDB
 - Moongose
+
+### Instrucciones de uso
 
 1. Iniciar Servidor (puerto: 3000)
 
